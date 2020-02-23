@@ -82,9 +82,9 @@ class RegisterController extends Controller
 
     private function sendWhatsappNotification(string $otp, string $recipient)
     {
-        $twilio_whatsapp_number = "+14155238886";
-        $account_sid = "AC2b365f537f24ea35c9d10ae0cf1aa662";
-        $auth_token = "5daa411f9018f33c8a689ae6cd492aaa";
+        $twilio_whatsapp_number = "YOUR_WHATSAPP_APPROVED_NUMBER"; //Or SAND_BOX number
+        $account_sid = "YOUR_TWILIO_SID";
+        $auth_token = "YOUR_TWILIO_TOKEN";
 
         $client = new Client($account_sid, $auth_token);
         $message = "Your registration pin code is $otp";

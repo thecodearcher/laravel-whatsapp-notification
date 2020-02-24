@@ -351,7 +351,7 @@ Next, the message [template](https://www.twilio.com/docs/sms/whatsapp/tutorial/s
 
     ## Conclusion
 
-    Now that you have finished this tutorial, you have successfully learned how to send out WhatsApp notifications from your Laravel application while also learning how to make modifications to the scaffolded Laravel auth registration logic. If you will like to take a look at the complete source code for this tutorial, you can find it on [Github](https://github.com/thecodearcher/laravel-whatsapp-notification).
+    Now that you have finished this tutorial, you have successfully learned how to send out WhatsApp notifications from your Laravel application while also learning how to make modifications to the scaffolded Laravel auth registration logic. If you would like to take a look at the complete source code for this tutorial, you can find it on [Github](https://github.com/thecodearcher/laravel-whatsapp-notification).
 
     You can take this further by further modifying the authentication process to verify the OTP sent your user before granting them access to your application. Also, you can read more about securing your Laravel application using Twilio Authy [here](https://www.twilio.com/blog/securing-laravel-php-application-2fa-twilio-authy).
 
